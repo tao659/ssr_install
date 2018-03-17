@@ -232,8 +232,8 @@ function install_ss(){
     ldconfig
     # Install ShadowsocksR
     cd $cur_dir
-    tar zxf shadowsocks-3.2.1.tar.gz
-    mv shadowsocks-3.2.1/shadowsocks /usr/local/
+    tar zxf shadowsocksr-3.2.1.tar.gz
+    mv shadowsocksr-3.2.1/shadowsocks /usr/local/
     if [ -f /usr/local/shadowsocks/server.py ]; then
         chmod +x /etc/init.d/ssr
         # Add run on system start up
@@ -267,8 +267,8 @@ function install_ss(){
 # Install cleanup
 function install_cleanup(){
     cd $cur_dir
-    rm -f shadowsocks-3.2.1.tar.gz
-    rm -rf shadowsocks-3.2.1
+    rm -f shadowsocksr-3.2.1.tar.gz
+    rm -rf shadowsocksr-3.2.1
     rm -f libsodium-latest.gz
     rm -rf libsodium-latest
 }
