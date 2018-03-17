@@ -252,7 +252,7 @@ function install_ss(){
         echo -e "Server Port: \033[41;37m ${shadowsocksport} \033[0m"
         echo -e "Password: \033[41;37m ${shadowsockspwd} \033[0m"
         echo -e "Protocol: \033[41;37m auth_sha1_v4 \033[0m"
-        echo -e "obfs: \033[41;37m tls1.2_ticket_auth \033[0m"
+        echo -e "obfs: \033[41;37m http_simple \033[0m"
         echo -e "Encryption Method: \033[41;37m chacha20 \033[0m"
         echo
         echo "Enjoy it!"
