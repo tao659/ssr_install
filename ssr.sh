@@ -199,7 +199,7 @@ function config_shadowsocks(){
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
-    "port_passwword":
+    "port_password":
     {
     	"${shadowsocksport}":"$shadowsockspwd"
     },
