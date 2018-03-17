@@ -126,12 +126,12 @@ function pre_install(){
 # Download files
 function download_files(){
     # Download libsodium file
-    if ! wget --no-check-certificate -O https://raw.githubusercontent.com/tao659/ssr_install/master/libsodium-stable.tar.gz; then
+    if ! wget --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/libsodium-stable.tar.gz; then
         echo "Failed to download libsodium file!"
         exit 1
     fi
     # Download ShadowsocksR file
-     if ! wget --no-check-certificate -O https://raw.githubusercontent.com/tao659/ssr_install/master/shadowsocksr-3.2.1.tar.gz ; then
+     if ! wget --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/shadowsocksr-3.2.1.tar.gz ; then
          echo "Failed to download ShadowsocksR file!"
          exit 1
      fi
