@@ -269,7 +269,7 @@ function install_cleanup(){
     cd $cur_dir
     rm -f shadowsocksr-3.2.1.tar.gz
     rm -rf shadowsocksr-3.2.1
-    rm -f libsodium-latest.gz
+    rm -f libsodium-latest.tar.gz
     rm -rf libsodium-latest
 }
 
