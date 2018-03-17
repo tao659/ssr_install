@@ -3,12 +3,12 @@
 
 ssr install command
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/ssr.sh && chmod +x ssr.sh && ./ssr.sh
+wget -N --no-check-certificate https://github.com/tao659/ssr_install/raw/master/ssr.sh && chmod +x ssr.sh && ./ssr.sh
 ```
 
 bbr install command
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+wget -N --no-check-certificate https://github.com/tao659/ssr_install/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 - 默认加密为： chacha20
