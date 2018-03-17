@@ -8,7 +8,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_inst
 
 bbr install command
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/bbs.sh && chmod +x bbr.sh && ./bbr.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/tao659/ssr_install/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 - 默认加密为： chacha20
