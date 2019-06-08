@@ -18,6 +18,12 @@ wget -N --no-check-certificate https://github.com/tao659/ssr_install/raw/master/
 - 配置文件路径： /etc/ssr.json
 - 安装路径： /usr/local/shadowsoks
 
+update nss
+```
+yum -y update nss
+```
+
+
 bbr install command
 ```
 wget -N --no-check-certificate https://github.com/tao659/ssr_install/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
