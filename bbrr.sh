@@ -4,9 +4,9 @@ yum install centos-release-xen -y
 
 yum upgrade kernel -y
 
-echo 'netre.default_qdisc=fq' | tee -a /etc/sysctlnf
+echo 'net.core.default_qdisc=fq' | tee -a /etc/sysctl.conf
 
-echo 'net.ipv4.tcp_congestion_control=bbr' | tee -a /etc/sysctlnf
+echo 'net.ipv4.tcp_congestion_control=bbr' | tee -a /etc/sysctl.conf
 
 echo '#!/bin/sh' > /etc/profile.d/bbr_status.sh
 
